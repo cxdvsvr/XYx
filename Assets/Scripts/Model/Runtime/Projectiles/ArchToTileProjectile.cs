@@ -4,7 +4,7 @@ namespace Model.Runtime.Projectiles
 {
     public class ArchToTileProjectile : BaseProjectile
     {
-        private const float ProjectileSpeed = 7f;
+        public  float ProjectileSpeed = 2f;
         private readonly Vector2Int _target;
         private readonly float _timeToTarget;
         private readonly float _totalDistance;

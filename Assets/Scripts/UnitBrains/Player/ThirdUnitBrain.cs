@@ -17,12 +17,14 @@ public enum UnitState
 
 public class ThirdUnitBrain : DefaultPlayerUnitBrain
 {
-    private UnitState _state = UnitState.Moving;
+    
+    public UnitState _state = UnitState.Moving;
     private float _switchTimer = 0f;
     private UnitState _nextState;
     private UnitState desiredState;
     public override string TargetUnitName => "Ironclad Behemoth";
 
+    
     public override void Update(float deltaTime, float time)
     {
 
@@ -37,6 +39,7 @@ public class ThirdUnitBrain : DefaultPlayerUnitBrain
             }
         }
     }
+   
     public override Vector2Int GetNextStep()
     {
         desiredState = HasTargetsInRange()
@@ -65,6 +68,8 @@ public class ThirdUnitBrain : DefaultPlayerUnitBrain
             return;
         AddProjectileToList(CreateProjectile(forTarget), intoList);
     }
+    
+
 }
 
 
