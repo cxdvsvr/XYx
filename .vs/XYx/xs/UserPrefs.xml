@@ -1,69 +1,38 @@
-﻿<Properties StartupConfiguration="{802CDF90-C5C6-7CA9-F8EE-EA14FE645CAC}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnityTechnologies/Effect/BuffSystem.cs">
+﻿<Properties StartupConfiguration="{6BA3E430-C1DB-B53E-7C27-41F2EDC2C301}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Controller/LevelController.cs">
     <Files>
-      <File FileName="Assets/UnityTechnologies/Effect/EfectsRa.cs" Line="13" Column="10" />
-      <File FileName="Assets/Scripts/UnitBrains/Player/ThirdUnitBrain.cs" Line="23" Column="33" />
-      <File FileName="Assets/UnityTechnologies/TowerDefenseTemplate/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" Line="1" Column="34" />
+      <File FileName="Assets/UnityTechnologies/Effect/EfectsRa.cs" Line="27" Column="35" />
+      <File FileName="Assets/UnityTechnologies/Effect/Buff.cs" Line="19" Column="1" />
+      <File FileName="Assets/UnityTechnologies/Effect/BuffSystem.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/UnitBrains/Player/ThirdUnitBrain.cs" Line="49" Column="23" />
+      <File FileName="Assets/UnityTechnologies/TowerDefenseTemplate/PostProcessing/Editor/PropertyDrawers/TrackballGroupDrawer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/Controller/IPlayerUnitChoosingListener.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/View/ChooseUnitView.cs" Line="24" Column="48" />
-      <File FileName="Assets/Scripts/UnitBrains/Player/DefaultPlayerUnitBrain.cs" Line="65" Column="1" />
-      <File FileName="Assets/Scripts/Model/Config/Settings.cs" Line="85" Column="2" />
-      <File FileName="Assets/Scripts/UnitBrains/Player/SecondUnitBrain.cs" Line="20" Column="49" />
-      <File FileName="Assets/Scripts/Model/Runtime/Projectiles/ArchToTileProjectile.cs" Line="7" Column="16" />
-      <File FileName="Assets/UnityTechnologies/Effect/Buff.cs" Line="19" Column="6" />
-      <File FileName="Assets/UnityTechnologies/Effect/BuffSystem.cs" Line="35" Column="19" />
+      <File FileName="Assets/Scripts/View/ChooseUnitView.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnitBrains/Player/DefaultPlayerUnitBrain.cs" Line="24" Column="1" />
+      <File FileName="Assets/Scripts/Model/Config/Settings.cs" />
+      <File FileName="Assets/Scripts/UnitBrains/Player/SecondUnitBrain.cs" Line="16" Column="22" />
+      <File FileName="Assets/Scripts/Model/Runtime/Projectiles/ArchToTileProjectile.cs" />
+      <File FileName="Assets/Resources/PlayerUnits/UnitP.cs" Line="32" Column="1" />
+      <File FileName="Assets/Scripts/Model/Runtime/Unit.cs" Line="55" Column="38" />
+      <File FileName="Assets/Scripts/Model/Config/UnitConfig.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UnitBrains/UnitP.cs" Line="18" Column="36" />
+      <File FileName="Assets/Scripts/Controller/LevelController.cs" Line="55" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="XYx" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Controller" expanded="True" />
-                <Node name="Model" expanded="True">
-                  <Node name="Config" expanded="True" />
-                  <Node name="Runtime" expanded="True">
-                    <Node name="Projectiles" expanded="True" />
-                  </Node>
-                </Node>
-                <Node name="UnitBrains" expanded="True">
-                  <Node name="Pathfinding" expanded="True" />
-                  <Node name="Player" expanded="True" />
-                </Node>
-                <Node name="Utilities" expanded="True" />
-                <Node name="View" expanded="True" />
-              </Node>
-              <Node name="UnityTechnologies" expanded="True">
-                <Node name="Effect" expanded="True">
-                  <Node name="BuffSystem.cs" selected="True" />
-                </Node>
-                <Node name="TowerDefenseTemplate" expanded="True">
-                  <Node name="PostProcessing" expanded="True">
-                    <Node name="Editor" expanded="True">
-                      <Node name="PropertyDrawers" expanded="True" />
-                    </Node>
-                  </Node>
-                  <Node name="Scripts" expanded="True">
-                    <Node name="Core" expanded="True">
-                      <Node name="Data" expanded="True" />
-                    </Node>
-                    <Node name="TowerDefense" expanded="True">
-                      <Node name="Game" expanded="True" />
-                      <Node name="Level" expanded="True" />
-                      <Node name="Nodes" expanded="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="XYx" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>Assembly-CSharp-Editor.csproj</String>
+    <String>Assembly-CSharp.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87fe8c85-3ebb-42a1-86f2-2e4f136680c3" />
+  <MonoDevelop.Ide.ItemProperties.Root PreferredExecutionTarget="2d0bb8d2-7d57-4c27-b992-36a99e8b34df" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
